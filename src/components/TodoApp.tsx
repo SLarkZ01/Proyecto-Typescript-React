@@ -47,7 +47,7 @@ export const TodoApp = () => {
             {/* Título de la aplicación */}
             <h1>Lista de tareas</h1>
             {/* Contenedor para el formulario de agregar tareas */}
-            <div>
+            <div className="flex">
                 {/* Input para escribir la nueva tarea */}
                 <input type="text"
                     // El valor del input está vinculado al estado 'nuevaTarea'
